@@ -9,3 +9,5 @@
 # The following shows how to override the Unicorn timout:
 #
 #normal[:unicorn][:timeout] = 30
+
+normal[:unicorn][:version] = '4.8.3'
