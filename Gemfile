@@ -58,8 +58,8 @@ end
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# Use passenger as the app server
-gem 'passenger'
+# Use unicorn as the app server
+gem 'unicorn', '~> 4.8.3'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
